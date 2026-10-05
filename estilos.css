@@ -1,0 +1,63 @@
+body {
+    background-color: #f4f6f8;
+}
+
+.hero {
+    background-color: #212529;
+    color: white;
+    padding: 70px 0;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero img {
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.info-card {
+    border: none;
+    transition: 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.exercicio {
+    transition: 0.3s;
+}
+
+.exercicio:hover {
+    transform: scale(1.02);
+}
+
+.concluido {
+    opacity: 0.6;
+}
+
+.progress {
+    height: 25px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
